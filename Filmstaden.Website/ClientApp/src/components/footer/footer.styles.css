@@ -4,9 +4,29 @@ footer {
   height: 300px;
   position: absolute;
   bottom: 0px;
+  display: flex;
 }
 
 .footer-container {
   display: flex;
+  flex-direction: column;
+  width: inherit;
+}
+
+.link-container {
+  display: flex;
   justify-content: space-around;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 300px;
+  width: 100%;
+  align-content: space-around;
+}
+
+.footer-headlines {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 30px;
+  color: white;
 }

@@ -1,8 +1,15 @@
 .footer-item {
   color: black;
+  font-size: 18px;
+  padding-bottom: 10px;
+  padding-top: 15px;
 }
 
 .footer-item:hover {
   cursor: pointer;
   text-decoration: underline;
+}
+
+.paddingLeft {
+  padding-left: 5em;
 }
