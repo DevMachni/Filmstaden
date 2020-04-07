@@ -1,0 +1,8 @@
+.footer-item {
+  color: black;
+}
+
+.footer-item:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
